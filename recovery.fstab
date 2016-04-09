@@ -1,0 +1,7 @@
+/system		ext4	/dev/block/bootdevice/by-name/system
+/cache		ext4	/dev/block/bootdevice/by-name/cache
+/data		ext4	/dev/block/bootdevice/by-name/userdata		flags=encryptable=/dev/block/bootdevice/by-name/bk1
+/boot		emmc	/dev/block/bootdevice/by-name/boot
+/recovery	emmc	/dev/block/bootdevice/by-name/recovery
+/misc		emmc	/dev/block/bootdevice/by-name/misc
+/usb_otg	vfat	/dev/block/sda1		/dev/block/sda		flags=display="USB-OTG";storage;wipeingui;removable
