@@ -8,12 +8,12 @@
 /data           ext4        /dev/block/bootdevice/by-name/userdata
 /cache          ext4        /dev/block/bootdevice/by-name/cache
 /misc           emmc        /dev/block/bootdevice/by-name/misc
-/efs1           emmc        /dev/block/mmcblk0p20                           flags=backup=1;display=EFS
+/efs1           emmc        /dev/block/mmcblk0p20                           flags=backup=1;display="EFS"
 /efs2           emmc        /dev/block/mmcblk0p21                           flags=backup=1;subpartitionof=/efs1
-/efs3           emmc        /dev/block/mmcblk0p22                           flags=backup=1;subpartitionof=/efs2
-/efs4           emmc        /dev/block/mmcblk0p25                           flags=backup=1;subpartitionof=/efs3
+/efs3           emmc        /dev/block/mmcblk0p22                           flags=backup=1;subpartitionof=/efs1
+/efs4           emmc        /dev/block/mmcblk0p25                           flags=backup=1;subpartitionof=/efs1
 
-/firmware       vfat        /dev/block/bootdevice/by-name/modem             flags=display="Firmware";mounttodecrypt
+/firmware       vfat        /dev/block/bootdevice/by-name/modem             flags=display="Modem";mounttodecrypt
 /persist        ext4        /dev/block/bootdevice/by-name/persist           flags=display="Persist";backup=1
 
 /usb_otg        vfat        /dev/block/sda1                                 flags=display="USB-OTG";storage;wipeingui;removable
