@@ -14,3 +14,5 @@ Display | 1080 x 1920 pixels, 5.0"  (~441 ppi pixel density)
 Rear Camera  | 13 MP, 4128 x 3096 pixels, autofocus, dual-LED (dual tone) flash
 Front Camera | 5.0 MP
 Release Date | April 2015
+
+![Xiaomi MI 4i](http://cdn2.gsmarena.com/vv/pics/xiaomi/xiaomi-mi4i-2.jpg "Xiaomi MI 4i")
