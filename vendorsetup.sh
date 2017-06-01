@@ -1,1 +1,2 @@
+add_lunch_combo omni_ferrari-eng
 add_lunch_combo omni_ferrari-userdebug
