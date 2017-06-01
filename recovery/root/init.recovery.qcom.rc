@@ -1,0 +1,11 @@
+## crypto
+on property:ro.crypto.state=encrypted
+    start qseecomd
+
+# separate copy needed to use /sbin/linker instead of /system/bin/linker64
+service qseecomd /sbin/qseecomd
+    class core
+    user root
+    group root system drmrpc
+    seclabel u:r:recovery:s0
+    disabled
