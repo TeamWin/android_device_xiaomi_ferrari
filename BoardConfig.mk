@@ -85,5 +85,6 @@ TW_BRIGHTNESS_PATH := /sys/class/leds/lcd-backlight/brightness
 TW_EXCLUDE_SUPERSU := true
 TW_INCLUDE_CRYPTO := true
 TW_MTP_DEVICE := "/dev/mtp_usb"
+TW_NO_USB_STORAGE := true
 TW_OEM_BUILD := false
 TW_THEME := portrait_hdpi
