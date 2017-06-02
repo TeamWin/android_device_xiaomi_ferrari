@@ -84,7 +84,6 @@ TWHAVE_SELINUX := true
 TW_BRIGHTNESS_PATH := /sys/class/leds/lcd-backlight/brightness
 TW_EXCLUDE_SUPERSU := true
 TW_INCLUDE_CRYPTO := true
-TW_INPUT_BLACKLIST := "hbtp_vm"
 TW_MTP_DEVICE := "/dev/mtp_usb"
 TW_OEM_BUILD := false
 TW_THEME := portrait_hdpi
